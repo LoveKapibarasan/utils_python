@@ -18,7 +18,7 @@ A collection of lightweight Python utilities designed to simplify various daily 
 
 ---
 
-### 🎵 `mp4tomp3_converter`
+### 🎵 `mp4_to_mp3_converter`
 **Purpose**: Converts `.mp4` video files into `.mp3` audio files.
 
 - Useful for extracting audio from lectures, music videos, etc.
