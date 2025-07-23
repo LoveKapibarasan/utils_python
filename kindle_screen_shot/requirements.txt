@@ -1,0 +1,5 @@
+pyautogui
+pywinauto
+Pillow
+PyQt6
+pyinstaller
