@@ -1,5 +1,3 @@
-# utils_python
-
 # 🧰 util_python
 
 A collection of lightweight Python utilities designed to simplify various daily tasks. This repository contains tools for Kindle screen capture automation, media file conversion, executable management, and quick dictionary-based text replacement with clipboard support.
@@ -7,6 +5,10 @@ A collection of lightweight Python utilities designed to simplify various daily 
 ---
 
 ## 📦 Modules Overview
+
+
+### Scheduler
+- See `README.md` inside.
 
 ### 📸 `kindle_screen_shot` (for Windows)
 **Purpose**: Automates Kindle screen capturing by simulating keyboard shortcuts and saving screenshots.
