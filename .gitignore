@@ -2,6 +2,7 @@
 dict.json
 user_dictionary/dict.json
 ticktick/.env
+chat_gpt/.env
 
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central

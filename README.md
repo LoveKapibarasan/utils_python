@@ -28,8 +28,21 @@ A collection of lightweight Python utilities designed to simplify various daily 
 ### 🖥️ `exe_manager`
 **Purpose**: GUI-based launcher and manager for `.exe` applications.
 
+---
+
+### 🤖 `api.py`
+**Purpose**: Sends a message to the OpenAI API (example using GPT-4o).
+
+- Requires a valid OpenAI API key.
+
+
+### 🖼️ `to_png.py`
+**Purpose**: Converts various image formats to `.png`.
+
+- Supported formats: `.jpg`, `.jpeg`, `.bmp`, `.gif`, `.tiff`, `.webp`, `.png`
 
 ---
+
 
 ### 📋 `user_dictionary`
 **Purpose**: Replaces command-like text snippets with user-defined phrases, copying the result to the clipboard.
