@@ -35,6 +35,7 @@ A collection of lightweight Python utilities designed to simplify various daily 
 
 - Requires a valid OpenAI API key.
 
+---
 
 ### 🖼️ `to_png.py`
 **Purpose**: Converts various image formats to `.png`.
@@ -48,6 +49,14 @@ A collection of lightweight Python utilities designed to simplify various daily 
 **Purpose**: Replaces command-like text snippets with user-defined phrases, copying the result to the clipboard.
 
 - Reads custom replacement rules from a `dict.json` file.
+
+### 🎵 Recorder
+
+**Purpose**: Record and save system sound directly in mp3.
+
+### 📝 `ocr_text_extract`
+
+**Purpose**: Extracts text from image files using Optical Character Recognition (OCR) powered by [Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
 
 
 
