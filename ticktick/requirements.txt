@@ -2,7 +2,3 @@ requests
 Flask
 python-dotenv
 pyinstaller
-
-
-
-
