@@ -50,14 +50,30 @@ A collection of lightweight Python utilities designed to simplify various daily 
 
 - Reads custom replacement rules from a `dict.json` file.
 
-### 🎵 Recorder
+---
+
+### 🎵 `Recorder`
 
 **Purpose**: Record and save system sound directly in mp3.
+
+---
 
 ### 📝 `ocr_text_extract`
 
 **Purpose**: Extracts text from image files using Optical Character Recognition (OCR) powered by [Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
 
+---
+
+### 📥 `Pytube`
+
+**Purpose:** Downloads YouTube videos as .mp4 files using a direct video URL.
+
+---
+
+### 🖼️ `images_to_pdf`
+**Purpose**: Converts image files (`.png`, `.jpg`, `.jpeg`, etc.) into a single, sorted multi-page PDF.
+
+- Sorts image files alphabetically before conversion.
 
 
 ---
