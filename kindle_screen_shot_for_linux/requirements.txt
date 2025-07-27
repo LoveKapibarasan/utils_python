@@ -1,2 +1,4 @@
+pillow
+mss
 pynput
-pyscreenshot
+PyQt5

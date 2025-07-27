@@ -1,15 +1,20 @@
-# Area Screenshot Tool (Linux)
+# Full Screen Screenshot Automation Tool (X11)
 
-Press `F8` to:
-1. Select a screen area interactively (like Snipping Tool),
-2. Enter how many screenshots to take,
-3. Automatically capture the same area repeatedly.
+This tool repeatedly captures full-screen screenshots and presses a key (like `right` or `space`) after each shot. Useful for automating page turns in eBooks or presentations.
 
 ## Setup
 
+* Run measure_size to know an exact document size.
+
 ```bash
 pip install -r requirements.txt
-sudo apt install scrot
+sudo apt install python3-tk
+```
+
+✅ You must be running **X11** (not Wayland). Check with:
+
+```bash
+echo $XDG_SESSION_TYPE
 ```
 
 ## Run
@@ -18,4 +23,4 @@ sudo apt install scrot
 python screenshot_tool.py
 ```
 
-Press `F8` to begin. Use `Ctrl+C` to stop.
+Press `Ctrl+C` to cancel early. Screenshots will be saved in the `screenshots/` folder.
