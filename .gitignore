@@ -5,6 +5,7 @@ ticktick/.env
 chat_gpt/.env
 **.mp4
 
+OCR/extracted_text.txt
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
