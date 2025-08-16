@@ -3,7 +3,10 @@ dict.json
 user_dictionary/dict.json
 ticktick/.env
 chat_gpt/.env
+chat_gpt_5/.env
 **.mp4
+**.mp3
+.env
 
 OCR/extracted_text.txt
 ### AL ###

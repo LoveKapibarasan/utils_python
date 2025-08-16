@@ -4,19 +4,19 @@ from datetime import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# Load API key
-load_dotenv()
-api_key = os.getenv("OPEN_API_KEY")
-if not api_key:
-    raise ValueError("❌ OPEN_API_KEY not found in .env")
 
+from create_assistant import create_and_save_assistant
+from get_api_key import get_api_key  # Import the function here
+
+
+api_key = get_api_key()
 client = OpenAI(api_key=api_key)
 
-# Ask for Assistant ID
-ASSISTANT_ID = input("🔧 Enter the Assistant ID: ").strip()
+# Ask for Assistant ID, or create one if not provided
+ASSISTANT_ID = input("🔧 Enter the Assistant ID (leave blank to create new): ").strip()
 if not ASSISTANT_ID:
-    print("❌ Assistant ID is required.")
-    exit(1)
+    print("🆕 No Assistant ID provided. Creating a new assistant...")
+    ASSISTANT_ID = create_and_save_assistant(json_path="assistant_info.json", api_key=api_key)
 
 # Ask for thread ID or create one
 user_thread = input("📎 Enter existing thread_id or press Enter to create a new one: ").strip()
