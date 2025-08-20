@@ -24,3 +24,8 @@ python screenshot_tool.py
 ```
 
 Press `Ctrl+C` to cancel early. Screenshots will be saved in the `screenshots/` folder.
+
+
+# Notes
+
+`fn` + `fn11` = Maximize Screen Size

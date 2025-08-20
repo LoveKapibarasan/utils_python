@@ -13,7 +13,7 @@ while True:
         reasoning={ "effort": "low" },
         text={ "verbosity": "low" },
     )
-    print(result.output_text)
+    print("ChatGPT:", result.output_text)
     with open("chat_log.txt", "a") as log_file:
         log_file.write(f"You: {user_input}\n")
         log_file.write(f"ChatGPT: {result.output_text}\n")
