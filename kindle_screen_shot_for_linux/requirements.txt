@@ -1,4 +1,2 @@
 pillow
-mss
 pynput
-PyQt5
